@@ -1,0 +1,112 @@
+/* Add custom styles for the portfolio site */
+body {
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.navbar {
+    background-color: #343a40 !important; /* Dark navbar background color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important; /* White text color for navbar links */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the navbar toggle button */
+}
+
+/* Style the jumbotron in the "About" section */
+#about {
+    background-image: url('background.jpg'); /* Add a background image */
+    background-size: cover;
+    color: #000000; /* White text color for the section */
+    padding: 100px 0;
+}
+
+/* Style the portfolio cards */
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/*Contact section*/
+.card-title
+{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+}
+.bi 
+{
+    width: 30px;
+    height: 40px;
+    margin-left: 60px;
+    align-items: center;
+}
+.head
+{
+    font-size: 40px;
+    text-align: center;
+}
+.cnt
+{
+  margin-top: 20px; 
+  
+}
+/*about page*/
+
+.par
+{
+    font-size: 30px;
+    
+}
+.btn
+{
+    width: 270px;
+    
+   
+}
+.project
+{
+    text-align: center;
+}
+.projects
+{
+    margin-top: 30px;
+    font-size: 50px;
+    
+}
+.navbar
+{
+    margin-top: 15px;
+    
+}
+.navbar-brand
+{
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* Style the form inputs and button */
+.form-control {
+    border: 2px solid #343a40;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
